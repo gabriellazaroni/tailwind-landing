@@ -32,7 +32,7 @@ export const Navbar: React.FC = () => {
                       bg-body lg:bg-transparent border-x border-x-box-border lg:border-x-0 lg:h-auto h-0 overflow-hidden"
           >
             <ul
-              className="border-t border-box-border lg:border-t-0 px-6 
+              className="border-t box-border lg:border-t-0 px-6 
                       lg:px-0 pt-6 lg:pt-0 flex flex-col lg:flex-row gap-y-4 gap-x-10 
                       text-lg text-heading-2 w-full lg:justify-center lg:items-center"
             >
@@ -42,7 +42,7 @@ export const Navbar: React.FC = () => {
             </ul>
             <div
               className="lg:min-w-max flex items-center sm:w-max w-full pb-6 
-                        lg:pb-0 border-b border-box-border lg:border-0 px-6 lg:px-0"
+                        lg:pb-0 border-b box-border lg:border-0 px-6 lg:px-0"
             >
               <BtnLink text="Get Started" href="#cta" className="" />
             </div>
@@ -51,7 +51,7 @@ export const Navbar: React.FC = () => {
           <div className="min-w-max flex items-center gap-x-3">
             <button
               onClick={toggleTheme}
-              className="outline-hidden flex relative text-heading-2 rounded-full p-2 lg:p-3 border border-box-border cursor-pointer"
+              className="outline-hidden flex relative text-heading-2 rounded-full p-2 lg:p-3 border box-border cursor-pointer"
             >
               {theme === "dark" ? (
                 <svg
