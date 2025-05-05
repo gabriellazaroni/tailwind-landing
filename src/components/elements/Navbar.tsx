@@ -3,14 +3,7 @@ import logo from '../../assets/logo.svg'
 import { NavItem } from "../shared/NavItem"
 import { BtnLink } from "../shared/BtnLink"
 import { useThemeStore } from "../../store/ThemeStore"
-
-const navItems = [
-  { href: "#", text: "Home" },
-  { href: "#services", text: "Services" },
-  { href: "#about-us", text: "About Us" },
-  { href: "#pricing", text: "Pricing" },
-
-]
+import { navItems } from "../../utils/nav-items"
 
 export const Navbar: React.FC = () => {
   const { toggleTheme, theme } = useThemeStore()

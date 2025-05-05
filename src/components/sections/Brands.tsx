@@ -4,9 +4,7 @@ const logos = [
   'discord',
   'openai',
   'paypal',
-  'slack',
   'spotify',
-  'uber',
   'youtube'
 ]
 
